@@ -1,6 +1,6 @@
 # Unit Converter
 
-A simple Python unit converter supporting accurate length and weight conversions.
+A simple Python unit converter supporting length, weight, and temperature scale conversions with input validation.
 
 ## Features
 
