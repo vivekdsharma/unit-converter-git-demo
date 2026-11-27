@@ -1,6 +1,6 @@
 # Unit Converter
 
-A simple Python unit converter project managed using Git and GitHub.
+A simple Python unit converter supporting accurate length and weight conversions.
 
 ## Features
 

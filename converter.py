@@ -8,6 +8,18 @@ def km_to_miles(km: float) -> float:
     return km * 0.621371
 
 
+def miles_to_km(miles: float) -> float:
+    if miles < 0:
+        raise ValueError("Distance cannot be negative.")
+    return miles / 0.621371
+
+
+def meters_to_feet(meters: float) -> float:
+    if meters < 0:
+        raise ValueError("Distance cannot be negative.")
+    return meters * 3.28084
+
+
 # --- Weight Conversions ---
 def kg_to_pounds(kg: float) -> float:
     if kg < 0:
@@ -23,6 +35,7 @@ def celsius_to_fahrenheit(celsius: float) -> float:
 def main() -> None:
     print("Unit Converter")
     print(f"10 km = {km_to_miles(10):.2f} miles")
+    print(f"100 m = {meters_to_feet(100):.2f} ft")
     print(f"5 kg = {kg_to_pounds(5):.2f} lbs")
     print(f"25 C = {celsius_to_fahrenheit(25):.2f} F")
 
